@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/chris/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/chris/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Attribution/Autofac License.txt" Condition="Exists('$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Attribution/Autofac License.txt')">
+      <NuGetPackageId>Datalust.Piggy</NuGetPackageId>
+      <NuGetPackageVersion>1.0.46</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>Attribution/Autofac License.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Attribution/Dapper License.txt" Condition="Exists('$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Attribution/Dapper License.txt')">
+      <NuGetPackageId>Datalust.Piggy</NuGetPackageId>
+      <NuGetPackageVersion>1.0.46</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>Attribution/Dapper License.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Attribution/Npgsql License.txt" Condition="Exists('$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Attribution/Npgsql License.txt')">
+      <NuGetPackageId>Datalust.Piggy</NuGetPackageId>
+      <NuGetPackageVersion>1.0.46</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>Attribution/Npgsql License.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Attribution/Serilog License.txt" Condition="Exists('$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Attribution/Serilog License.txt')">
+      <NuGetPackageId>Datalust.Piggy</NuGetPackageId>
+      <NuGetPackageVersion>1.0.46</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>Attribution/Serilog License.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Piggy-Icon-128px.ico" Condition="Exists('$(NuGetPackageRoot)datalust.piggy/1.0.46/contentFiles/any/netcoreapp2.0/Piggy-Icon-128px.ico')">
+      <NuGetPackageId>Datalust.Piggy</NuGetPackageId>
+      <NuGetPackageVersion>1.0.46</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>Piggy-Icon-128px.ico</Link>
+    </Content>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+CREATE TABLE team
+( 
+  id SERIAL CONSTRAINT team_pk PRIMARY KEY,
+  name TEXT
+);
